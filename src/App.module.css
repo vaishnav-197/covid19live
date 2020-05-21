@@ -1,5 +1,5 @@
 body {
-    background-color: black; 
+    background-color: whitesmoke;
     color: #007bff ;
 }
 
@@ -9,6 +9,10 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.container h1{
+    font-family: 'Staatliches', cursive;
 }
 
 .image{
@@ -25,3 +29,6 @@ body {
         width: 100%;
     }
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');

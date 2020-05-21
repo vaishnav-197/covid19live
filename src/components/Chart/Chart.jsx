@@ -7,9 +7,9 @@ import styles from './Chart.module.css';
 
 
 
-const Charts = ({data : { confirmed , recovered , deaths} , country}) => {
+const Charts = ({data:{ confirmed , recovered , deaths} , country}) => {
 
-
+    console.log(country);
     const [dailyData ,setDailyData] = useState([]);
 
 
@@ -30,7 +30,8 @@ const Charts = ({data : { confirmed , recovered , deaths} , country}) => {
            datasets: [{
                data: dailyData.map(({confirmed}) => confirmed),
                label: 'Infected',
-               borderColor: '#3333ff',
+               borderColor: 'blue',
+               backgroundColor: 'rgba(0, 0, 255, 0.5)',
                fill : true,
            } , {
             data: dailyData.map(({deaths}) => deaths),

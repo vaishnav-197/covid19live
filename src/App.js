@@ -22,16 +22,19 @@ class App extends React.Component {
     }
 
     handleCountryChange = async (country) => {
+        console.log(country);
+        this.setState({ country : country});
         const fetchedData = await fetchData(country);
         this.setState({data : fetchedData});
 
     }
     render () {
         const { data , country } = this.state;
-
+            
         return (
             <div className={styles.container}>
-                <h1>Covid-19</h1>
+                <h1>C🦠vid-19</h1>
+                <hr/>
                 <Cards data = {data} />
                 <br/><br/>
 

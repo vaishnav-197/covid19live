@@ -13,7 +13,7 @@ const CountryPicker = ({ handleCountryChange }) => {
         }
         fetchAPI();
     } , [setFetchedCountries]); 
-    console.log(fetchedCountries);
+    
     return(
         <FormControl className={styles.formcontrol}>
             <NativeSelect defaultValue=" " onChange= {(e) => handleCountryChange(e.target.value)}>
