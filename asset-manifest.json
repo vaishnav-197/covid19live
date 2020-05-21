@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vaishnav-197/covid19live.git/static/css/main.488a0828.chunk.css",
+    "main.js": "/vaishnav-197/covid19live.git/static/js/main.b7a61291.chunk.js",
+    "main.js.map": "/vaishnav-197/covid19live.git/static/js/main.b7a61291.chunk.js.map",
+    "runtime-main.js": "/vaishnav-197/covid19live.git/static/js/runtime-main.244d274c.js",
+    "runtime-main.js.map": "/vaishnav-197/covid19live.git/static/js/runtime-main.244d274c.js.map",
+    "static/js/2.9813c52f.chunk.js": "/vaishnav-197/covid19live.git/static/js/2.9813c52f.chunk.js",
+    "static/js/2.9813c52f.chunk.js.map": "/vaishnav-197/covid19live.git/static/js/2.9813c52f.chunk.js.map",
+    "index.html": "/vaishnav-197/covid19live.git/index.html",
+    "precache-manifest.7e383d7e3db9520cae07bae65a238f73.js": "/vaishnav-197/covid19live.git/precache-manifest.7e383d7e3db9520cae07bae65a238f73.js",
+    "service-worker.js": "/vaishnav-197/covid19live.git/service-worker.js",
+    "static/css/main.488a0828.chunk.css.map": "/vaishnav-197/covid19live.git/static/css/main.488a0828.chunk.css.map",
+    "static/js/2.9813c52f.chunk.js.LICENSE.txt": "/vaishnav-197/covid19live.git/static/js/2.9813c52f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.244d274c.js",
+    "static/js/2.9813c52f.chunk.js",
+    "static/css/main.488a0828.chunk.css",
+    "static/js/main.b7a61291.chunk.js"
+  ]
+}
